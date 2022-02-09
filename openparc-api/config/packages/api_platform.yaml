@@ -1,0 +1,11 @@
+api_platform:
+    eager_loading:
+        enabled: false
+    mapping:
+        paths: ['%kernel.project_dir%/src/Entity']
+    patch_formats:
+        json: ['application/merge-patch+json']
+    swagger:
+        versions: [3]
+    defaults:
+        pagination_enabled: false

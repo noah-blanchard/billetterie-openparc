@@ -1,0 +1,32 @@
+.confirmPage{
+    
+}
+
+.confirmPage > .box >  svg {
+    font-size: 7em;
+    color:rgb(92, 92, 92);
+}
+
+.box{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    width:40%;
+    gap:20px;
+    height: 50%;
+
+
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 20px 25px -5px, rgba(0, 0, 0, 0.04) 0px 10px 10px -5px;
+    background-color:#ffffff;
+    border-radius:10px;
+    padding:2%;
+}
+
+.box > div{
+    text-align: center;
+    width:70%;
+}
+
+.box > div > p{
+    font-size: 1.2em;
+}

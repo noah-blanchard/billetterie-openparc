@@ -1,0 +1,114 @@
+.reservPage{
+    display:flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.ticketDiv{
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap:20px;
+    width:70%;
+    height:70%;
+}
+
+.form{
+    display:flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height:50%;
+    width:70%;
+    align-items: center;
+}
+
+.form > .wrapperForm {
+    display:flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    width:100%;
+}
+
+.reservPage > .wrapperForm{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    width:70%;
+
+}
+
+
+
+.form > div.wrapperForm > div{
+    display:flex;
+    flex-direction: column;
+    width:40%;
+    gap:20px;
+    height: 88%;
+
+
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 20px 25px -5px, rgba(0, 0, 0, 0.04) 0px 10px 10px -5px;
+    background-color:#ffffff;
+    border-radius:10px;
+    padding:2%;
+
+}
+
+
+.wrapperForm > div > h3 {
+    margin:0;
+}
+
+.validateBox{
+    height:100%;
+    width:40%;
+    display:flex;
+    flex-direction: column;
+    gap:20px;
+
+
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 20px 25px -5px, rgba(0, 0, 0, 0.04) 0px 10px 10px -5px;
+    background-color:#ffffff;
+    border-radius:10px;
+    padding:2%;
+}
+
+
+.validateBox ul{
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+ul > li {
+    font-size: 1.4em;
+}
+
+.form > .inlineDiv{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width:50%;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 20px 25px -5px, rgba(0, 0, 0, 0.04) 0px 10px 10px -5px;
+    background-color:#ffffff;
+    border-radius:10px;
+    padding:2%;
+    width: 88%;
+}
+
+.reservPage > .inlineDiv{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width:50%;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 20px 25px -5px, rgba(0, 0, 0, 0.04) 0px 10px 10px -5px;
+    background-color:#ffffff;
+    border-radius:10px;
+    padding:2%;
+    width: 60%;
+}
+
+.inlineDiv > button{
+    width:20%;
+}
